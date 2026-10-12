@@ -1,53 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dipak's Midterm Presentation</title>
-    <!-- Linking the separate CSS stylesheet -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dipak Bhattarai Khatri - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header / Navigation Bar -->
     <header>
-        <h1>Dipak Bhattarai </h1>
-        <p>Midterm Presentation — Web Profile</p>
+      <div class="container nav-container">
+        <h1 class="logo">Dipak<span>.dev</span></h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#hobbies">Hobbies & Apps</a></li>
+            <li><a href="#learning">Learning Journey</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <div class="container">
-        <!-- Professional Goals -->
-        <div class="card">
-            <h2>🏢 Professional Goals</h2>
-            <p>Passionate about building modern web solutions and looking forward to building a great career by working in a <strong>good company</strong>.</p>
-        </div>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h2>Hello, I'm Dipak Bhattarai Khatri 👋</h2>
+        <p>
+          Welcome to my student portfolio! I am learning HTML, CSS, and web
+          design to build awesome digital experiences.
+        </p>
+        <a href="#goals" class="btn">Explore My Profile</a>
+      </div>
+    </section>
 
-        <!-- Hobbies & Interests -->
-        <div class="card">
-            <h2>🌍 Hobbies & Interests</h2>
-            <p>I enjoy staying active, exploring new environments, and competing in sports:</p>
-            <div class="tag-list">
-                <span class="tag">⛰️ Adventuring</span>
-                <span class="tag">🧭 Exploring</span>
-                <span class="tag">🏐 Volleyball</span>
-                <span class="tag">🏓 Table Tennis</span>
-                <span class="tag">🎮 Online Games</span>
-            </div>
-        </div>
+    <!-- Main Content Container -->
+    <main class="container">
+      <!-- About Section -->
+      <section id="about" class="card">
+        <h3>🧑 About Me</h3>
+        <p>
+          I am a beginner student currently expanding my technical skills and
+          exploring modern web development. This page serves as my midterm
+          project showcase, highlighting my background, learning goals, and
+          favorite activities.
+        </p>
+      </section>
 
-        <!-- Favorite Apps -->
-        <div class="card">
-            <h2>📱 Frequently Used Apps</h2>
-            <p>Platforms I use regularly to stay connected and share my experiences:</p>
-            <div class="app-links">
-                <a href="https://www.instagram.com" target="_blank" class="app-btn insta">Instagram</a>
-                <a href="https://www.facebook.com" target="_blank" class="app-btn fb">facebook</a>
-            </div>
-        </div>
-    </div>
+      <!-- Professional Goals Section -->
+      <section id="goals" class="card">
+        <h3>🎯 Professional Goals</h3>
+        <ul>
+          <li>
+            <strong>Learn Web Design:</strong> Master the core principles of
+            layout design, color theory, and user experience.
+          </li>
+          <li>
+            <strong> HTML:</strong> Build strong foundations in using semantic
+            tags to structure web pages cleanly.
+          </li>
+          <li>
+            <strong> CSS:</strong> Learn styling, box models, selectors, and
+            responsive design techniques.
+          </li>
+        </ul>
+      </section>
 
+      <!-- Hobbies & Interests Section -->
+      <section id="hobbies" class="card">
+        <h3>🏐 Hobbies & Interests</h3>
+        <p>
+          Outside of my studies and coding, I love staying active and healthy:
+        </p>
+        <div class="badge-grid">
+          <span class="badge">Playing Volleyball</span>
+          <span class="badge">Learning New Technologies</span>
+          <span class="badge">Problem Solving</span>
+        </div>
+      </section>
+
+      <!-- Frequently Used Apps Section -->
+      <section id="apps" class="card">
+        <h3>📱 Frequently Used Apps & Tools</h3>
+        <div class="app-list">
+          <div class="app-item">
+            <h4>messenger</h4>
+            <p>
+              used to communicate with friends and family, and also for group
+              discussions.
+            </p>
+          </div>
+          <div class="app-item">
+            <h4>instagram</h4>
+            <p>Used for sharing photos and connecting with others.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Learning HTML/CSS Journey Section -->
+      <section id="learning" class="card">
+        <h3>💻 Learning HTML, CSS & Web Design</h3>
+        <p>
+          As a beginner student, learning web design has been an exciting
+          journey:
+        </p>
+        <ol>
+          <li>
+            <strong>HTML Structure:</strong> Understanding semantic elements
+            like headers, sections, and navigation bars.
+          </li>
+          <li>
+            <strong>CSS Styling:</strong> Learning colors, typography, box model
+            styling, and layout alignment.
+          </li>
+          <li>
+            <strong>Responsive Design:</strong> Ensuring web pages adapt cleanly
+            to different browser window sizes.
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Midterm Presentation | Built with Separate HTML & CSS</p>
+      <p>&copy; 2026 Dipak Bhattarai Khatri. Built for Midterm Presentation.</p>
     </footer>
-
-</body>
+  </body>
 </html>
